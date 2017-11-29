@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node JS File Server</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; }
+        .margin-top-20 { margin-top: 2.0em; }
+    </style>
+</head>
+<body>    
+
+    <div class="container">
+        <div class="row make-it-flex">
+            <p style="display:inline" class="text-left">Current Direectory : </p>
+            <p style="display:inline" id = "cd"></p>
+        </div>
+        <ul class="list-group" id = "cnts">
+            <li class="list-group-item fld" id = "/" >/</li>           
+        </ul>
+        <div class="row margin-top-20">            
+            <button id = "nfb" style="float: right">New Folder</button>
+            <input type="text" style="float: right" id="path" />
+        </div>
+        <div class="row margin-top-20">  
+            <button id = "ufb" style="float: right">Upload File</button>
+            <input type="file" style="float: right" id='file'/>           
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    <script src="/filedl.js"></script> 
+    <script src="/source.js"></script>
+
+</body>
+</html>

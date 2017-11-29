@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-file-server",
+  "version": "1.0.0",
+  "description": "Node JS File Server",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "author": "Sreek",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^6.10.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.1",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "serve-favicon": "^2.4.5",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "mocha": "^3.2.0",
+    "selenium-webdriver": "^3.3.0"
+  }
+}
